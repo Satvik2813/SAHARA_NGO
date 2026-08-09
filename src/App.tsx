@@ -10,6 +10,7 @@ import { Stories } from "@/pages/Stories";
 import { Gallery } from "@/pages/Gallery";
 import { News } from "@/pages/News";
 import { Transparency } from "@/pages/Transparency";
+import { Donate } from "@/pages/Donate";
 import { ComingSoon } from "@/pages/ComingSoon";
 
 function ScrollToTop() {
@@ -33,7 +34,7 @@ export function App() {
         <Route path="/journey" element={<Journey />} />
         <Route path="/stories" element={<Stories />} />
         <Route path="/get-involved" element={<ComingSoon title="Get Involved" />} />
-        <Route path="/donate" element={<ComingSoon title="Donate" />} />
+        <Route path="/donate" element={<Donate />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/news" element={<News />} />
         <Route path="/transparency" element={<Transparency />} />
