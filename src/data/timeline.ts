@@ -20,7 +20,7 @@ export const milestones: Milestone[] = [
     year: "1986",
     title: "SAHARA is founded",
     description:
-      "SAHARA began its work to serve poor, underprivileged and vulnerable communities in Telangana, founded by Narsing Rao Ramagirri.",
+      "SAHARA began its work to serve poor, underprivileged and vulnerable communities in Telangana, founded by Narsing Rao Ramagiri.",
     source: "Client-confirmed",
     marquee: true,
   },

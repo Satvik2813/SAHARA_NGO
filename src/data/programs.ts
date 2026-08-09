@@ -56,7 +56,7 @@ export const programs: Program[] = [
     promise: "Skills can change the direction of a life.",
     description:
       "Sahara provides vocational and employability training for unemployed youth and school/college dropouts — computer basics, workplace English, office assistance and tailoring — with placement assistance and career counselling.",
-    image: "/assets/programs/P20_computer_training.jpg",
+    image: "/assets/Replacement1.png",
     icon: "laptop",
     status: "current",
     cta: "Support a Training Seat",

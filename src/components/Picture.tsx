@@ -15,9 +15,10 @@ interface PictureProps {
  */
 export function Picture({ src, alt, className, loading = "lazy", duotone, sizes }: PictureProps) {
   const webp = src.replace(/\.(jpg|jpeg|png)$/i, ".webp");
+  const skipWebp = src.includes("Replacement");
   return (
     <picture>
-      <source srcSet={webp} type="image/webp" sizes={sizes} />
+      {!skipWebp && <source srcSet={webp} type="image/webp" sizes={sizes} />}
       <img
         src={src}
         alt={alt}
