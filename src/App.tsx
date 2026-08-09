@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { Layout } from "@/layouts/Layout";
 import { Home } from "@/pages/Home";
 import { About } from "@/pages/About";
+import { OurWork } from "@/pages/OurWork";
+import { Impact } from "@/pages/Impact";
 import { ComingSoon } from "@/pages/ComingSoon";
 
 function ScrollToTop() {
@@ -21,8 +23,8 @@ export function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/our-work" element={<ComingSoon title="Our Work" />} />
-        <Route path="/impact" element={<ComingSoon title="Impact" />} />
+        <Route path="/our-work" element={<OurWork />} />
+        <Route path="/impact" element={<Impact />} />
         <Route path="/journey" element={<ComingSoon title="Our Journey" />} />
         <Route path="/stories" element={<ComingSoon title="Stories" />} />
         <Route path="/get-involved" element={<ComingSoon title="Get Involved" />} />
