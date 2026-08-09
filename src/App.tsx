@@ -11,6 +11,9 @@ import { Gallery } from "@/pages/Gallery";
 import { News } from "@/pages/News";
 import { Transparency } from "@/pages/Transparency";
 import { Donate } from "@/pages/Donate";
+import { Contact } from "@/pages/Contact";
+import { Privacy } from "@/pages/Privacy";
+import { GetInvolved } from "@/pages/GetInvolved";
 import { ComingSoon } from "@/pages/ComingSoon";
 
 function ScrollToTop() {
@@ -33,13 +36,13 @@ export function App() {
         <Route path="/impact" element={<Impact />} />
         <Route path="/journey" element={<Journey />} />
         <Route path="/stories" element={<Stories />} />
-        <Route path="/get-involved" element={<ComingSoon title="Get Involved" />} />
+        <Route path="/get-involved" element={<GetInvolved />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/news" element={<News />} />
         <Route path="/transparency" element={<Transparency />} />
-        <Route path="/contact" element={<ComingSoon title="Contact" />} />
-        <Route path="/privacy" element={<ComingSoon title="Privacy Policy" />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<Privacy />} />
         <Route path="*" element={<ComingSoon title="Page not found" />} />
       </Routes>
     </Layout>
