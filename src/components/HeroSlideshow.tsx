@@ -52,6 +52,7 @@ export function HeroSlideshow() {
                 i === index ? "opacity-100" : "opacity-0"
               )}
               loading={i === 0 ? "eager" : "lazy"}
+              // @ts-expect-error - React typings require fetchPriority but React DOM requires fetchpriority
               fetchpriority={i === 0 ? "high" : "low"}
             />
           </picture>
