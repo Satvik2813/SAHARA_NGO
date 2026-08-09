@@ -34,8 +34,7 @@ export function Journey() {
           </div>
 
           <div className="relative">
-            <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-line" />
-            <div className="lg:hidden absolute left-0 top-0 bottom-0 w-px bg-line ml-[0.15rem]" />
+            <div className="absolute left-8 lg:left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-line" />
             <div className="space-y-10 lg:space-y-14">
               {milestones.map((m, i) => (
                 <TimelineItem key={m.year + m.title} milestone={m} side={i % 2 === 0 ? "left" : "right"} />
