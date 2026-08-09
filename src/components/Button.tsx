@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import type { ReactNode } from "react";
 import { cn } from "@/utils/cn";
 
-type Variant = "primary" | "secondary" | "ghost";
+type Variant = "primary" | "secondary" | "ghost" | "outline-light";
 
 interface ButtonProps {
   to?: string; // internal route (react-router)
@@ -18,6 +18,7 @@ const variantClass: Record<Variant, string> = {
   primary: "btn-primary",
   secondary: "btn-secondary",
   ghost: "btn-ghost",
+  "outline-light": "btn border-2 border-cream text-cream bg-transparent hover:bg-cream/10",
 };
 
 export function Button({ to, href, variant = "primary", children, className, onClick, type }: ButtonProps) {
