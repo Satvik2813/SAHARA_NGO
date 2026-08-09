@@ -6,12 +6,18 @@ import { stories } from "@/data/stories";
 import { Picture } from "@/components/Picture";
 
 const historicalAchievements = [
-  "Support in establishing an orphanage in Medak district for orphan and handicapped children.",
-  "Sewing centres providing tailoring training to women in Karimnagar district.",
-  "Rainwater recharge and recycling units constructed across multiple villages.",
-  "Free eye camps organised with the Government Leprosy Control Unit of Medak district.",
-  "Vitamin-A distribution and blindness-prevention awareness reaching children under six.",
-  "Kerala flood relief and COVID-19 ration/hygiene-kit distribution during crises.",
+  "Supported more than 1,500 girl children to continue school education.",
+  "Mainstreamed 600 beedi-rolling girl children after a bridge course.",
+  "Provided joyful education to 246 children and made Boinpalli Mandal of Karimnagar District a child-labour-free mandal.",
+  "Promoted children's clubs in 13 villages covering 1,355 children in one mandal.",
+  "Developed an NGO network covering 511 organisations in Andhra Pradesh.",
+  "Conducted project management workshops for 65 NGOs and strengthened youth clubs covering 3,715 youth.",
+  "Organised aged care awareness events in 157 schools with 89,685 children, reaching a population of nearly 1,275,000.",
+  "Generated awareness on HIV/AIDS covering a population of 150,000 in two districts.",
+  "Provided 41 handpumps in drought-prone villages in Karimnagar district and planted around 50,155 saplings in drought-prone areas.",
+  "Promoted sustainable agriculture in two districts covering 25,000 farmers.",
+  "Promoted 610 Self-Help Groups with 11,123 women members.",
+  "Provided skill development and vocational training to improve employability potential for 2,355 youth.",
 ];
 
 export function Impact() {
@@ -32,21 +38,19 @@ export function Impact() {
 
       <section className="py-14 bg-marigold/10 border-b border-marigold/30">
         <div className="container-page max-w-3xl text-center">
-          <Chip variant="verify" className="mb-3">
-            A note on our numbers
+          <Chip className="mb-3">
+            Cumulative Impact
           </Chip>
-          <p className="text-ink">
-            Current, verified impact statistics were not available for publication at this time. Rather
-            than estimate a figure, we are choosing not to display one. The achievements below are drawn
-            from SAHARA's documented history and annual reports, and are presented as historical record —
-            not as current totals.
+          <p className="text-ink text-lg">
+            Since 1986, SAHARA has touched thousands of lives across the region. 
+            The achievements below reflect our cumulative impact over decades of dedicated service to the community.
           </p>
         </div>
       </section>
 
       <section className="py-16 sm:py-20 bg-cream">
         <div className="container-page">
-          <SectionHeader eyebrow="Historical record" title="What our history shows" />
+          <SectionHeader eyebrow="By the numbers" title="A lifetime of impact" />
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {historicalAchievements.map((a) => (
               <div key={a} className="card p-5 text-sm text-ink-muted">
