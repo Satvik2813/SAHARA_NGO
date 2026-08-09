@@ -17,7 +17,7 @@ const historicalAchievements = [
 export function Impact() {
   return (
     <>
-      <Seo title="Our Impact — SAHARA" description="The reach of SAHARA's work across education, health, livelihoods and the environment." />
+      <Seo title="Our Impact — SAHARA" description="The reach of SAHARA's work across education, health, livelihoods and the environment." path="/impact" />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">
         <div className="container-page max-w-3xl">

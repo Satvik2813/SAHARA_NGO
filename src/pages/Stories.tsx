@@ -20,7 +20,7 @@ export function Stories() {
 
   return (
     <>
-      <Seo title="Stories of Change — SAHARA" description="Real, privacy-conscious stories of the people SAHARA has supported." />
+      <Seo title="Stories of Change — SAHARA" description="Real, privacy-conscious stories of the people SAHARA has supported." path="/stories" />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">
         <div className="container-page max-w-3xl">

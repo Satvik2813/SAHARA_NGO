@@ -11,6 +11,7 @@ export function About() {
       <Seo
         title="About SAHARA — Our Story & Mission"
         description="How SAHARA began, our mission and approach, leadership, and registration information."
+        path="/about"
       />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">

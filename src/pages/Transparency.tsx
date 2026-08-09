@@ -7,7 +7,7 @@ import { Chip } from "@/components/Chip";
 export function Transparency() {
   return (
     <>
-      <Seo title="Reports & Transparency — SAHARA" description="SAHARA's annual reports, governance and registration details." />
+      <Seo title="Reports & Transparency — SAHARA" description="SAHARA's annual reports, governance and registration details." path="/transparency" />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">
         <div className="container-page max-w-3xl">

@@ -31,7 +31,7 @@ export function Donate() {
 
   return (
     <>
-      <Seo title="Donate to SAHARA" description="Support SAHARA's work for the poor and needy in Telangana." />
+      <Seo title="Donate to SAHARA" description="Support SAHARA's work for the poor and needy in Telangana." path="/donate" />
 
       <section className="bg-terracotta text-white py-16 sm:py-20">
         <div className="container-page max-w-3xl">

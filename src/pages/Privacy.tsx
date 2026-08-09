@@ -4,7 +4,7 @@ import { contact, org } from "@/data/site";
 export function Privacy() {
   return (
     <>
-      <Seo title="Privacy Policy — SAHARA" description="How SAHARA handles information submitted through this website." />
+      <Seo title="Privacy Policy — SAHARA" description="How SAHARA handles information submitted through this website." path="/privacy" />
       <section className="py-16 sm:py-20 bg-cream">
         <div className="container-page max-w-prose">
           <h1 className="text-3xl sm:text-4xl mb-6">Privacy Policy</h1>

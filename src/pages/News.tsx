@@ -7,7 +7,7 @@ import { contact } from "@/data/site";
 export function News() {
   return (
     <>
-      <Seo title="News & Media — SAHARA in the Press" description="Press coverage and media mentions of SAHARA's work." />
+      <Seo title="News & Media — SAHARA in the Press" description="Press coverage and media mentions of SAHARA's work." path="/news" />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">
         <div className="container-page max-w-3xl">

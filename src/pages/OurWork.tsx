@@ -20,6 +20,7 @@ export function OurWork() {
       <Seo
         title="Our Programs — Education, Elderly, Women, Environment"
         description="SAHARA's six program areas supporting disadvantaged children, elders, women, youth, health and the environment."
+        path="/our-work"
       />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">

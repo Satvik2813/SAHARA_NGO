@@ -34,7 +34,7 @@ export function Contact() {
 
   return (
     <>
-      <Seo title="Contact SAHARA" description="Reach SAHARA in Amberpet, Hyderabad — address, phone, email and enquiry form." />
+      <Seo title="Contact SAHARA" description="Reach SAHARA in Amberpet, Hyderabad — address, phone, email and enquiry form." path="/contact" />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">
         <div className="container-page max-w-3xl">

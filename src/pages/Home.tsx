@@ -16,6 +16,8 @@ export function Home() {
       <Seo
         title="SAHARA — NGO for the poor & needy in Telangana"
         description="SAHARA is a grassroots NGO supporting children, women, youth and the elderly across Telangana since 1986. Extend a helping hand."
+        path="/"
+        organizationSchema
       />
       <Hero />
       <IdentityTrust />

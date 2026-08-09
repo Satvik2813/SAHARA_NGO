@@ -6,7 +6,7 @@ import { Chip } from "@/components/Chip";
 export function Journey() {
   return (
     <>
-      <Seo title="Our Journey — SAHARA's Timeline" description="Milestones in SAHARA's decades of grassroots service in Telangana." />
+      <Seo title="Our Journey — SAHARA's Timeline" description="Milestones in SAHARA's decades of grassroots service in Telangana." path="/journey" />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">
         <div className="container-page max-w-3xl">

@@ -50,7 +50,7 @@ const options = [
 export function GetInvolved() {
   return (
     <>
-      <Seo title="Get Involved — Donate, Sponsor, Volunteer" description="Donate, sponsor a child, adopt an elder, volunteer or partner with SAHARA." />
+      <Seo title="Get Involved — Donate, Sponsor, Volunteer" description="Donate, sponsor a child, adopt an elder, volunteer or partner with SAHARA." path="/get-involved" />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">
         <div className="container-page max-w-3xl">

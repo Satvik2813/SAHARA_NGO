@@ -13,7 +13,7 @@ export function Gallery() {
 
   return (
     <>
-      <Seo title="Gallery — SAHARA in Action" description="Photos of SAHARA's programs across children, elderly care, women, youth and the environment." />
+      <Seo title="Gallery — SAHARA in Action" description="Photos of SAHARA's programs across children, elderly care, women, youth and the environment." path="/gallery" />
 
       <section className="bg-brand-forest text-cream py-16 sm:py-20">
         <div className="container-page max-w-3xl">
