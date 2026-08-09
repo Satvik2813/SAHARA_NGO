@@ -2,6 +2,7 @@ import { programs } from "@/data/programs";
 import { ProgramCard } from "@/components/ProgramCard";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Button } from "@/components/Button";
+import { Reveal } from "@/components/Reveal";
 
 export function ProgramGrid() {
   return (
@@ -18,8 +19,10 @@ export function ProgramGrid() {
           }
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {programs.map((p) => (
-            <ProgramCard key={p.slug} program={p} />
+          {programs.map((p, i) => (
+            <Reveal key={p.slug} delayMs={i * 60}>
+              <ProgramCard program={p} />
+            </Reveal>
           ))}
         </div>
       </div>

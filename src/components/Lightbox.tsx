@@ -24,7 +24,7 @@ export function Lightbox({ images, index, onClose, onNavigate }: LightboxProps) 
   return (
     <div
       ref={trapRef}
-      className="fixed inset-0 z-[60] bg-brand-forest/95 flex items-center justify-center p-4"
+      className="lightbox-backdrop fixed inset-0 z-[60] bg-brand-forest/95 flex items-center justify-center p-4"
       role="dialog"
       aria-modal="true"
       aria-label={`Photo: ${image.caption}`}
@@ -51,7 +51,7 @@ export function Lightbox({ images, index, onClose, onNavigate }: LightboxProps) 
         <ChevronIcon className="h-8 w-8 rotate-180" />
       </button>
 
-      <figure className="max-w-3xl max-h-[80vh] flex flex-col items-center">
+      <figure className="lightbox-figure max-w-3xl max-h-[80vh] flex flex-col items-center">
         <Picture
           src={image.src}
           alt={image.caption}

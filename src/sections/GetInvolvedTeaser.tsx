@@ -1,6 +1,7 @@
 import { Button } from "@/components/Button";
 import { SectionHeader } from "@/components/SectionHeader";
 import { BookIcon, ScissorsIcon, HeartIcon } from "@/components/icons";
+import { Reveal } from "@/components/Reveal";
 
 const options = [
   {
@@ -34,12 +35,14 @@ export function GetInvolvedTeaser() {
           }
         />
         <div className="grid sm:grid-cols-3 gap-6">
-          {options.map((o) => (
-            <div key={o.title} className="card p-6">
-              <o.icon className="h-8 w-8 text-brand-green mb-3" />
-              <h3 className="text-lg mb-2">{o.title}</h3>
-              <p className="text-sm text-ink-muted">{o.text}</p>
-            </div>
+          {options.map((o, i) => (
+            <Reveal key={o.title} delayMs={i * 80}>
+              <div className="card p-6 h-full">
+                <o.icon className="h-8 w-8 text-brand-green mb-3" />
+                <h3 className="text-lg mb-2">{o.title}</h3>
+                <p className="text-sm text-ink-muted">{o.text}</p>
+              </div>
+            </Reveal>
           ))}
         </div>
       </div>

@@ -1,12 +1,13 @@
 import { stories } from "@/data/stories";
 import { Picture } from "@/components/Picture";
 import { Button } from "@/components/Button";
+import { Reveal } from "@/components/Reveal";
 
 export function FeaturedStory() {
   const story = stories[0];
   return (
     <section className="py-16 sm:py-20 bg-paper">
-      <div className="container-page grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <Reveal className="container-page grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <div className="rounded-lg overflow-hidden">
           <Picture src={story.image} alt="" className="w-full aspect-[4/5] object-cover" />
         </div>
@@ -23,7 +24,7 @@ export function FeaturedStory() {
             </Button>
           </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }
