@@ -80,11 +80,9 @@ export const programs: Program[] = [
     promise: "Better health creates stronger communities.",
     description:
       "Sahara conducts health-awareness programmes and medical camps for children, women and elderly people in communities with limited access to healthcare, including hygiene and seasonal-disease awareness.",
-    image: "/assets/programs/P07_children_health_camp.jpg",
+    image: "/assets/Replacement2.webp",
     icon: "cross",
     status: "current",
-    statusNote:
-      "A dedicated, current health-camp photograph was not available in the supplied source material — the image above is shared with the Children & Education programme.",
     cta: "Support a Health Camp",
     ctaTo: "/donate",
   },
