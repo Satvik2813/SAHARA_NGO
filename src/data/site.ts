@@ -9,7 +9,6 @@ export const org = {
   tagline: "HELP POOR AND INDEED PEOPLE", // [Client-confirmed] verbatim
   heroHeadline: "Extending a Helping Hand. Creating a Better Tomorrow.", // [Client Writeup]
   foundedYear: "1986", // [Client-confirmed]
-  registeredYear: "1986", // [Client-confirmed]
   founderName: "Narsing Rao Ramagirri", // [Client-confirmed] — displayable
   founderNote:
     "Founder member of SAHARA. Details beyond name and founding role were not confirmed for public display.",

@@ -132,6 +132,18 @@ export const XIcon = (p: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export const PlayIcon = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M7 4.5v15l13-7.5-13-7.5Z" />
+  </svg>
+);
+
+export const PauseIcon = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M8 5v14M16 5v14" />
+  </svg>
+);
+
 export const LinkedInIcon = (p: SVGProps<SVGSVGElement>) => (
   <svg {...base} {...p}>
     <rect x="3.5" y="3.5" width="17" height="17" rx="2.5" />

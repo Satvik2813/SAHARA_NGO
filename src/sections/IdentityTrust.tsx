@@ -11,8 +11,8 @@ export function IdentityTrust() {
           <p className="eyebrow mb-2">Who we are</p>
           <p className="text-lg sm:text-xl text-ink leading-relaxed max-w-2xl">
             {org.name} is a grassroots voluntary organisation serving underprivileged and vulnerable
-            communities across Telangana, through an integrated, community-based approach — founded and
-            registered in {org.foundedYear}.
+            communities across Telangana, through an integrated, community-based approach — founded in{" "}
+            {org.foundedYear}.
           </p>
           <p className="mt-3 text-ink-muted max-w-2xl">{mission}</p>
           <Button to="/about" variant="ghost" className="mt-4 !px-0">

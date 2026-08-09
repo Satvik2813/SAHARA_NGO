@@ -1,19 +1,12 @@
 import { Button } from "@/components/Button";
+import { HeroSlideshow } from "@/components/HeroSlideshow";
 import { org } from "@/data/site";
 
 export function Hero() {
   return (
     <section className="relative isolate overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <picture>
-          <source srcSet="/assets/hero/P01_hero_girls_schoolbags.webp" type="image/webp" />
-          <img
-            src="/assets/hero/P01_hero_girls_schoolbags.jpg"
-            alt="Girls holding new school backpacks at a SAHARA event"
-            className="h-full w-full object-cover object-[center_30%]"
-            loading="eager"
-          />
-        </picture>
+        <HeroSlideshow />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-forest/90 via-brand-forest/55 to-brand-forest/10" />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-forest/70 via-transparent to-transparent lg:hidden" />
       </div>

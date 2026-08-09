@@ -36,7 +36,7 @@ export function About() {
               family and community in order to help them.
             </p>
             <p className="text-ink-muted mb-8">
-              Founded and registered in {org.foundedYear} by {org.founderName}, {org.name} has grown into
+              Founded in {org.foundedYear} by {org.founderName}, {org.name} has grown into
               programmes spanning children's education, elderly care, women's empowerment, youth skill
               development, environmental sustainability and health &amp; hygiene.
             </p>
