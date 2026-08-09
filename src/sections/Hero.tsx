@@ -12,7 +12,7 @@ export function Hero() {
             alt="Girls holding new school backpacks at a SAHARA event"
             className="h-full w-full object-cover object-[center_30%]"
             loading="eager"
-            fetchPriority="high"
+            {...{ fetchpriority: "high" }}
           />
         </picture>
         <div className="absolute inset-0 bg-gradient-to-r from-brand-forest/90 via-brand-forest/55 to-brand-forest/10" />

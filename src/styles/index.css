@@ -52,7 +52,7 @@
   }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 font-body font-semibold rounded-md px-6 py-3 transition-base duration-base min-h-[44px];
+    @apply inline-flex items-center justify-center gap-2 font-body font-semibold rounded-md px-6 py-3 transition duration-base min-h-[44px];
   }
   .btn-primary {
     @apply btn bg-terracotta text-white hover:bg-terracotta-hover rounded-pill shadow-sm;
@@ -65,7 +65,7 @@
   }
 
   .card {
-    @apply bg-paper rounded-md border border-line shadow-sm transition-base duration-base;
+    @apply bg-paper rounded-md border border-line shadow-sm transition duration-base;
   }
   .card:hover {
     @apply shadow-md;

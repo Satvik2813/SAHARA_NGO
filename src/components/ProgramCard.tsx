@@ -21,7 +21,7 @@ export function ProgramCard({ program }: { program: Program }) {
         <Picture
           src={program.image}
           alt={program.promise}
-          className="h-full w-full object-cover transition-slow duration-slow group-hover:scale-105"
+          className="h-full w-full object-cover transition duration-slow group-hover:scale-105"
         />
         <span className="absolute top-3 left-3 grid place-items-center h-10 w-10 rounded-md bg-paper/95 text-brand-forest shadow-sm">
           <Icon className="h-5 w-5" />
@@ -31,7 +31,7 @@ export function ProgramCard({ program }: { program: Program }) {
         <h3 className="text-lg leading-tight">{program.name}</h3>
         <p className="text-sm text-ink-muted flex-1">{program.promise}</p>
         {program.statusNote && <Chip variant="verify">Shared image</Chip>}
-        <span className="text-brand-forest text-sm font-semibold mt-1 group-hover:text-terracotta transition-fast">
+        <span className="text-brand-forest text-sm font-semibold mt-1 group-hover:text-terracotta transition duration-fast">
           Learn more →
         </span>
       </div>

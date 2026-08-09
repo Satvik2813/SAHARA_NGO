@@ -49,7 +49,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`SAHARA on ${s.name}`}
-                  className="text-cream/80 hover:text-marigold transition-fast"
+                  className="text-cream/80 hover:text-marigold transition duration-fast"
                 >
                   <Icon className="w-5 h-5" />
                 </a>

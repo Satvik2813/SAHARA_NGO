@@ -52,7 +52,7 @@ export function Header() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 transition-base duration-base border-b",
+        "sticky top-0 z-50 transition duration-base border-b",
         scrolled ? "bg-cream/95 backdrop-blur border-line shadow-sm" : "bg-transparent border-transparent"
       )}
     >
@@ -70,7 +70,7 @@ export function Header() {
               to={item.to}
               className={({ isActive }) =>
                 cn(
-                  "px-3 py-2 rounded-sm text-sm font-semibold text-ink hover:text-terracotta transition-fast duration-fast",
+                  "px-3 py-2 rounded-sm text-sm font-semibold text-ink hover:text-terracotta transition duration-fast",
                   isActive && "text-terracotta"
                 )
               }
