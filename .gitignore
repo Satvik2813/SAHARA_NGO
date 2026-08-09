@@ -23,6 +23,9 @@ Thumbs.db
 npm-debug.log*
 *.log
 
+# TypeScript incremental build cache
+*.tsbuildinfo
+
 # Claude Code project metadata (not part of the website)
 .claude/
 
