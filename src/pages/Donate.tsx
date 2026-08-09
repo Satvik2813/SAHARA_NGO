@@ -27,7 +27,7 @@ const givingOptions = [
 
 export function Donate() {
   const indian = bankAccounts.filter((a) => a.type === "Indian");
-  const foreign = bankAccounts.filter((a) => a.type === "Foreign");
+  const foreign = bankAccounts.filter((a) => a.type === "Overseas");
 
   return (
     <>
@@ -78,7 +78,7 @@ export function Donate() {
       {/* Foreign accounts */}
       <section className="py-14 sm:py-16 bg-cream">
         <div className="container-page">
-          <SectionHeader eyebrow="International" title="Foreign donations" />
+          <SectionHeader eyebrow="International" title="Overseas donations" />
           <div className="grid sm:grid-cols-2 gap-6 max-w-3xl">
             {foreign.map((a) => (
               <BankAccountCard key={a.id} account={a} />
@@ -90,18 +90,40 @@ export function Donate() {
       {/* UPI + Cash */}
       <section className="py-14 sm:py-16 bg-paper">
         <div className="container-page grid lg:grid-cols-2 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-4">UPI</h3>
-            {upi.map((u) => (
-              <CopyField key={u.label} label={u.label} value={u.value} />
-            ))}
+          <div className="card overflow-hidden">
+            <div className="bg-brand-forest text-cream px-5 py-3 flex items-center justify-between gap-2">
+              <div className="flex items-center gap-3">
+                <div className="bg-white p-1 rounded-sm w-8 h-8 flex items-center justify-center shrink-0">
+                  <img src="/assets/banks/phonepe.png" alt="PhonePe logo" className="max-w-full max-h-full object-contain" />
+                </div>
+                <h3 className="font-display text-lg text-cream">UPI</h3>
+              </div>
+            </div>
+            <div className="p-5">
+              {upi.map((u) => (
+                <CopyField key={u.label} label={u.label} value={u.value} />
+              ))}
+            </div>
           </div>
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Cash donations</h3>
-            <p className="text-sm text-ink-muted mb-4">{cashDonation}</p>
-            <Button to="/contact" variant="secondary">
-              Contact us to arrange
-            </Button>
+          <div className="card overflow-hidden">
+            <div className="bg-brand-forest text-cream px-5 py-3 flex items-center justify-between gap-2">
+              <div className="flex items-center gap-3">
+                <div className="bg-white p-1 rounded-sm w-8 h-8 flex items-center justify-center shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#053f2c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+                    <rect x="2" y="6" width="20" height="12" rx="2" />
+                    <circle cx="12" cy="12" r="2" />
+                    <path d="M6 12h.01M18 12h.01" />
+                  </svg>
+                </div>
+                <h3 className="font-display text-lg text-cream">Cash donations</h3>
+              </div>
+            </div>
+            <div className="p-5">
+              <p className="text-sm text-ink-muted mb-4">{cashDonation}</p>
+              <Button to="/contact" variant="secondary">
+                Contact us to arrange
+              </Button>
+            </div>
           </div>
         </div>
       </section>

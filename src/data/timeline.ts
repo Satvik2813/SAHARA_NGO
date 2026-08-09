@@ -29,6 +29,7 @@ export const milestones: Milestone[] = [
     title: "Cyclone relief",
     description:
       "Collected old clothes and essential commodities and distributed them to cyclone-affected victims of Krishna and East Godavari districts.",
+    image: "/assets/timeline/P36_cyclone_relief_1990.jpg",
     source: "Client 30-Year Journey infographics",
     needsVerification: true,
     marquee: true,
@@ -38,6 +39,7 @@ export const milestones: Milestone[] = [
     title: "Free eye camps for leprosy patients",
     description:
       "Supported the Government Leprosy Control Unit of Medak district in organising free eye camps for leprosy patients.",
+    image: "/assets/timeline/P37_leprosy_eye_camp_1992.jpg",
     source: "Client 30-Year Journey infographics",
     needsVerification: true,
   },
@@ -46,6 +48,7 @@ export const milestones: Milestone[] = [
     title: "Formation of Self Help Groups",
     description:
       "Encouraged women in eight villages of Boinpalli Mandal to establish Self Help Groups and begin thrift and credit activities.",
+    image: "/assets/timeline/P38_self_help_groups_1996.jpg",
     source: "Client 30-Year Journey infographics",
   },
   {
@@ -53,7 +56,7 @@ export const milestones: Milestone[] = [
     title: "Sewing centre established",
     description:
       "Started a sewing centre at Vilasagar village, Karimnagar district, providing tailoring training to local women.",
-    image: "/assets/programs/P18_women_sewing_vidya.jpg",
+    image: "/assets/timeline/P39_sewing_centre_1998.jpg",
     source: "Client 30-Year Journey infographics",
     needsVerification: true,
   },
@@ -62,6 +65,7 @@ export const milestones: Milestone[] = [
     title: "Prevention of blindness among children",
     description:
       "Awareness programmes to prevent blindness caused by Vitamin A deficiency, with capsules distributed to children under six.",
+    image: "/assets/timeline/P40_prevention_blindness_2001.jpg",
     source: "Client 30-Year Journey infographics",
   },
   {
@@ -69,8 +73,7 @@ export const milestones: Milestone[] = [
     title: "Beedi-rolling women project",
     description:
       "A socio-economic development project for beedi-rolling women, implemented in 10 villages of Tadwai Mandal, Nizamabad district.",
-    image: "/assets/timeline/P33_vardavalli_hist.jpg",
-    duotone: true,
+    image: "/assets/timeline/P41_beedi_rolling_women_2003.jpg",
     source: "Client 30-Year Journey infographics",
     marquee: true,
   },
@@ -79,6 +82,7 @@ export const milestones: Milestone[] = [
     title: "Adoption of elders",
     description:
       "Adopted destitute elderly individuals in Karimnagar district and Hyderabad slums, providing regular monthly support.",
+    image: "/assets/timeline/P42_adoption_of_elders_2008.jpg",
     source: "Client 30-Year Journey infographics",
   },
   {
@@ -86,7 +90,7 @@ export const milestones: Milestone[] = [
     title: "Rainwater recharge & recycling units",
     description:
       "Model rainwater recycling units constructed in villages, with awareness created among students, parents and youth.",
-    image: "/assets/timeline/P26_rainwater_unit.jpg",
+    image: "/assets/timeline/P43_rainwater_recharge_2009.jpg",
     source: "Client 30-Year Journey infographics",
   },
   {
@@ -94,7 +98,7 @@ export const milestones: Milestone[] = [
     title: "“Grow More Trees” campaign",
     description:
       "Tree plantation under the Grow More Trees campaign, with saplings planted in school compounds with students, youth and elderly.",
-    image: "/assets/programs/P24_tree_plantation.jpg",
+    image: "/assets/timeline/P44_grow_more_trees_2010.jpg",
     source: "Client 30-Year Journey infographics",
     marquee: true,
   },
@@ -102,6 +106,7 @@ export const milestones: Milestone[] = [
     year: "2011",
     title: "Health camps for the aged & children",
     description: "Health camps organised in Amberpet slum areas, with regular check-ups for sponsored children and adopted elders.",
+    image: "/assets/timeline/P45_health_camps_2011.jpg",
     source: "Client 30-Year Journey infographics",
   },
   {
@@ -109,6 +114,7 @@ export const milestones: Milestone[] = [
     title: "Youth & women training programmes",
     description:
       "Beauty-culture, computer and spoken-English training for young women and school dropouts, with placement support and counselling.",
+    image: "/assets/timeline/P46_youth_women_training_2013.jpg",
     source: "Client 30-Year Journey infographics",
   },
   {
@@ -116,13 +122,14 @@ export const milestones: Milestone[] = [
     title: "Solar lights promotion",
     description:
       "Promoted solar lamps and home lighting systems in rural and urban areas, demonstrating utility and power savings to women's groups.",
+    image: "/assets/timeline/P47_solar_lights_2015.jpg",
     source: "Client 30-Year Journey infographics",
   },
   {
     year: "2018",
     title: "Kerala flood relief",
     description: "SAHARA provided relief assistance to Kerala flood victims, in collaboration with local volunteers and Self Help Group members.",
-    image: "/assets/timeline/P17_elderly_covid_group.jpg",
+    image: "/assets/timeline/P48_kerala_flood_relief_2018.jpg",
     source: "Client 30-Year Journey infographics",
     marquee: true,
   },
@@ -141,6 +148,7 @@ export const milestones: Milestone[] = [
     title: "Menstrual health & hygiene",
     description:
       "Distributed sanitary essentials to young women from weaker-section families, promoting health-seeking behaviour and menstrual hygiene.",
+    image: "/assets/timeline/P49_menstrual_hygiene_2021.jpg",
     source: "Client 30-Year Journey infographics",
   },
   {

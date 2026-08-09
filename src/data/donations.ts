@@ -7,8 +7,9 @@
 
 export interface BankAccount {
   id: string;
-  type: "Indian" | "Foreign";
+  type: "Indian" | "Overseas";
   bankName: string;
+  logo?: string;
   accountName: string;
   accountNumber: string;
   ifsc: string | null; // null = not shown in the approved images
@@ -22,6 +23,7 @@ export const bankAccounts: BankAccount[] = [
     id: "D1",
     type: "Indian",
     bankName: "Vijaya Bank",
+    logo: "/assets/banks/vijaya.png",
     accountName: "SAHARA",
     accountNumber: "404601010006102",
     ifsc: "VIJB0004046",
@@ -31,6 +33,7 @@ export const bankAccounts: BankAccount[] = [
     id: "D2",
     type: "Indian",
     bankName: "Canara Bank",
+    logo: "/assets/banks/canara.png",
     accountName: "SAHARA",
     accountNumber: "0649101017864",
     ifsc: "CNRB0000649",
@@ -40,6 +43,7 @@ export const bankAccounts: BankAccount[] = [
     id: "D3",
     type: "Indian",
     bankName: "Bank of Baroda",
+    logo: "/assets/banks/bob.png",
     accountName: "SAHARA",
     accountNumber: "06440100022464",
     ifsc: "BARB0BARKAT",
@@ -49,6 +53,7 @@ export const bankAccounts: BankAccount[] = [
     id: "D4",
     type: "Indian",
     bankName: "ICICI Bank",
+    logo: "/assets/banks/icici.png",
     accountName: "SAHARA",
     accountNumber: "630501061075",
     ifsc: "ICIC0006305",
@@ -58,6 +63,7 @@ export const bankAccounts: BankAccount[] = [
     id: "D5",
     type: "Indian",
     bankName: "Union Bank of India",
+    logo: "/assets/banks/union.png",
     accountName: "SAHARA",
     accountNumber: "328002010015532",
     ifsc: null,
@@ -66,8 +72,9 @@ export const bankAccounts: BankAccount[] = [
   },
   {
     id: "D6",
-    type: "Foreign",
+    type: "Overseas",
     bankName: "Canara Bank",
+    logo: "/assets/banks/canara.png",
     accountName: "SAHARA",
     accountNumber: "0649101019518",
     ifsc: "CNRB0000649",
@@ -76,8 +83,9 @@ export const bankAccounts: BankAccount[] = [
   },
   {
     id: "D7",
-    type: "Foreign",
+    type: "Overseas",
     bankName: "State Bank of India",
+    logo: "/assets/banks/sbi.png",
     accountName: "SAHARA",
     accountNumber: "40125204937",
     ifsc: "SBIN0000691",

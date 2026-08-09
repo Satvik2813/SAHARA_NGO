@@ -6,7 +6,14 @@ export function BankAccountCard({ account }: { account: BankAccount }) {
   return (
     <div className="card overflow-hidden">
       <div className="bg-brand-forest text-cream px-5 py-3 flex items-center justify-between gap-2">
-        <h3 className="font-display text-lg">{account.bankName}</h3>
+        <div className="flex items-center gap-3">
+          {account.logo && (
+            <div className="bg-white p-1 rounded-sm w-8 h-8 flex items-center justify-center shrink-0">
+              <img src={account.logo} alt={`${account.bankName} logo`} className="max-w-full max-h-full object-contain" />
+            </div>
+          )}
+          <h3 className="font-display text-lg text-cream">{account.bankName}</h3>
+        </div>
         <Chip className="!bg-cream/15 !border-cream/30 !text-cream">{account.type}</Chip>
       </div>
       <div className="p-5">

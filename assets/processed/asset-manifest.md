@@ -34,6 +34,22 @@ Status key: **READY** (usable now) · **REVIEW-UPSCALE** (upscaled from low-res;
 | P26 | P26_rainwater_unit | `Save Rain Water.jpg` crop | Environment/history | 444×212 | LOW (text-contaminated; consider Adobe manual extract or drop) |
 | P32 | P32_childrens_club_hist | PPT2 image21 | Historical (Children's Club) | 996×674 | READY |
 | P33 | P33_vardavalli_hist | PPT2 image29 | Historical (Vardavalli) [year needs verification] | 792×628 | READY |
+| P36 | P36_cyclone_relief_1990 | `Sahara_Timeline.pdf` p.1 (extracted, cropped) | 1990 Cyclone relief | 1200×950 | READY |
+| P37 | P37_leprosy_eye_camp_1992 | `Sahara_Timeline.pdf` p.1 (extracted, cropped) | 1992 Leprosy eye camps | 1200×868 | READY |
+| P38 | P38_self_help_groups_1996 | `Sahara_Timeline.pdf` p.1 (extracted) | 1996 Self Help Groups | 1200×788 | READY |
+| P39 | P39_sewing_centre_1998 | `Sahara_Timeline.pdf` p.1 (extracted) | 1998 Sewing centre | 1122×724 | READY |
+| P40 | P40_prevention_blindness_2001 | `Sahara_Timeline.pdf` p.1 (extracted) | 2001 Vitamin A / blindness prevention | 1061×685 | READY |
+| P41 | P41_beedi_rolling_women_2003 | `Sahara_Timeline.pdf` p.1 (extracted, cropped) | 2003 Beedi-rolling women project | 1200×819 | READY |
+| P42 | P42_adoption_of_elders_2008 | `Sahara_Timeline.pdf` p.1 (extracted) | 2008 Adoption of elders | 1064×268 | READY |
+| P43 | P43_rainwater_recharge_2009 | `Sahara_Timeline.pdf` p.2 (extracted) | 2009 Rainwater recharge units | 1200×903 | READY |
+| P44 | P44_grow_more_trees_2010 | `Sahara_Timeline.pdf` p.2 (extracted) | 2010 Grow More Trees campaign | 1200×773 | READY |
+| P45 | P45_health_camps_2011 | `Sahara_Timeline.pdf` p.2 (extracted) | 2011 Health camps (aged & children) | 1200×903 | READY |
+| P46 | P46_youth_women_training_2013 | `Sahara_Timeline.pdf` p.2 (extracted) | 2013 Youth & women training | 1200×903 | READY |
+| P47 | P47_solar_lights_2015 | `Sahara_Timeline.pdf` p.2 (extracted) | 2015 Solar lights promotion | 500×500 | READY |
+| P48 | P48_kerala_flood_relief_2018 | `Sahara_Timeline.pdf` p.2 (extracted) | 2018 Kerala flood relief | 1138×682 | READY |
+| P49 | P49_menstrual_hygiene_2021 | `Sahara_Timeline.pdf` p.2 (extracted) | 2021 Menstrual health & hygiene | 1200×661 | READY |
+
+*P36–P49 added 2026-08-09: client supplied `assets/Sahara_Timeline.pdf` (the same "30-Year Journey" infographic already cited as the text source for these milestones); each photo was extracted directly from the PDF's embedded images and matched to its own milestone, replacing three earlier mismatches — 2003 was showing the unrelated P33 (Vardavalli) placeholder, 2009 was showing the low-quality P26 crop, and 2018 was incorrectly showing the 2020 COVID photo (P17). P36, P37 and P41 needed inward cropping to remove desk/background bleed visible around the original printed photos.*
 
 ## Stories (consent granted; keep detail minimal)
 | ID | File (`processed/stories/`) | Source | Purpose | Dimensions | Status |
@@ -77,8 +93,8 @@ Status key: **READY** (usable now) · **REVIEW-UPSCALE** (upscaled from low-res;
 | P35 | P35_helping_hands_bg | PPT2 image1.jpeg | Section/hero background | 2400×1628 | REVIEW (likely stock — **verify license**; prefer brand gradient) |
 
 ## Totals
-- **Photos prepared:** 35 (P01–P35) + **4 press** + **6 brand/logo files** = **45 final web assets** (each photo × 2 formats).
-- **READY:** ~30 · **REVIEW-UPSCALE:** P03, P15, P23, P29, P16, P22 · **REVIEW-CAP:** P28, P30, P31 · **LOW:** P26.
+- **Photos prepared:** 49 (P01–P49) + **4 press** + **6 brand/logo files** = **59 final web assets** (each photo × 2 formats).
+- **READY:** ~44 · **REVIEW-UPSCALE:** P03, P15, P23, P29, P16, P22 · **REVIEW-CAP:** P28, P30, P31 · **LOW:** P26.
 - **Gaps:** no dedicated **Health-camp** photo (P07 partial); no **founder** photo; request high-res originals for P0/P1 heroes.
 
 > Nothing in `assets/` (source) or `assets/original/` was modified. Contact-sheet temp files were removed after verification.
