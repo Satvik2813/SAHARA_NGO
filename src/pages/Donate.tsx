@@ -94,14 +94,14 @@ export function Donate() {
             <div className="bg-brand-forest text-cream px-5 py-3 flex items-center justify-between gap-2">
               <div className="flex items-center gap-3">
                 <div className="bg-white p-1 rounded-sm w-8 h-8 flex items-center justify-center shrink-0">
-                  <img src="/assets/banks/phonepe.png" alt="PhonePe logo" className="max-w-full max-h-full object-contain" />
+                  <img src="/assets/banks/upi-icon.png" alt="UPI logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <h3 className="font-display text-lg text-cream">UPI</h3>
               </div>
             </div>
             <div className="p-5">
               {upi.map((u) => (
-                <CopyField key={u.label} label={u.label} value={u.value} />
+                <CopyField key={u.label} label={u.label} value={u.value} icons={u.icons} />
               ))}
             </div>
           </div>

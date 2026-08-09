@@ -94,8 +94,8 @@ export const bankAccounts: BankAccount[] = [
 ];
 
 export const upi = [
-  { label: "PhonePe", value: "9440483089" },
-  { label: "GPay / PhonePe", value: "9441156212" },
+  { label: "PhonePe", value: "9440483089", icons: ["/assets/banks/phonepe.png"] },
+  { label: "GPay / PhonePe", value: "9441156212", icons: ["/assets/banks/gpay.svg", "/assets/banks/phonepe.png"] },
 ];
 
 export const cashDonation =

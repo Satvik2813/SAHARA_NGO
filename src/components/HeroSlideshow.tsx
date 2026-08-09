@@ -52,7 +52,7 @@ export function HeroSlideshow() {
                 i === index ? "opacity-100" : "opacity-0"
               )}
               loading={i === 0 ? "eager" : "lazy"}
-              fetchPriority={i === 0 ? "high" : "low"}
+              fetchpriority={i === 0 ? "high" : "low"}
             />
           </picture>
         ))}
