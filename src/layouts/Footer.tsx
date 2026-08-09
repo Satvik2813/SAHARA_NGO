@@ -71,13 +71,13 @@ export function Footer() {
             </li>
             <li className="flex gap-2 items-center">
               <PhoneIcon className="w-4 h-4 shrink-0" />
-              <a href={`tel:+91${contact.phone}`} className="hover:text-marigold">
+              <a href={`tel:+91${contact.phone}`} className="text-cream/75 hover:text-marigold transition-colors">
                 {contact.phoneDisplay}
               </a>
             </li>
             <li className="flex gap-2 items-center">
               <MailIcon className="w-4 h-4 shrink-0" />
-              <a href={`mailto:${contact.email}`} className="hover:text-marigold break-all">
+              <a href={`mailto:${contact.email}`} className="text-cream/75 hover:text-marigold transition-colors">
                 {contact.email}
               </a>
             </li>
@@ -93,7 +93,7 @@ export function Footer() {
       <div className="border-t border-cream/15">
         <div className="container-page py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-cream/60">
           <p>&copy; {year} {org.name}. Donations are intended to be 80G tax-exempt in India.</p>
-          <Link to="/privacy" className="hover:text-marigold">
+          <Link to="/privacy" className="text-cream/60 hover:text-marigold transition-colors">
             Privacy Policy
           </Link>
         </div>
