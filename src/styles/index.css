@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  body {
+    @apply bg-cream text-ink font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-brand-forest;
+  }
+
+  :focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(242, 166, 28, 0.55);
+    border-radius: 4px;
+  }
+
+  a {
+    @apply text-brand-green-700 underline-offset-2;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply container mx-auto px-4 sm:px-6;
+  }
+
+  .eyebrow {
+    @apply text-terracotta font-body font-semibold tracking-wide uppercase text-xs sm:text-sm;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-body font-semibold rounded-md px-6 py-3 transition-base duration-base min-h-[44px];
+  }
+  .btn-primary {
+    @apply btn bg-terracotta text-white hover:bg-terracotta-hover rounded-pill shadow-sm;
+  }
+  .btn-secondary {
+    @apply btn border-2 border-brand-forest text-brand-forest bg-transparent hover:bg-brand-green-050;
+  }
+  .btn-ghost {
+    @apply btn text-brand-forest underline hover:no-underline;
+  }
+
+  .card {
+    @apply bg-paper rounded-md border border-line shadow-sm transition-base duration-base;
+  }
+  .card:hover {
+    @apply shadow-md;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-pill border border-brand-green-200 bg-brand-green-050 text-brand-forest text-xs sm:text-sm font-semibold px-3 py-1.5;
+  }
+  .chip-verify {
+    @apply chip border-marigold/60 bg-marigold/10 text-ink;
+  }
+
+  .duotone {
+    filter: grayscale(1) sepia(0.35) hue-rotate(70deg) saturate(1.4) brightness(0.95);
+  }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[100] focus:bg-brand-forest focus:text-cream focus:px-4 focus:py-2 focus:rounded-md;
+  }
+}
+
+@layer utilities {
+  .prose-measure {
+    max-width: 68ch;
+  }
+}
