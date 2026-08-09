@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Layout } from "@/layouts/Layout";
 import { Home } from "@/pages/Home";
+import { About } from "@/pages/About";
 import { ComingSoon } from "@/pages/ComingSoon";
 
 function ScrollToTop() {
@@ -19,7 +20,7 @@ export function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<ComingSoon title="About" />} />
+        <Route path="/about" element={<About />} />
         <Route path="/our-work" element={<ComingSoon title="Our Work" />} />
         <Route path="/impact" element={<ComingSoon title="Impact" />} />
         <Route path="/journey" element={<ComingSoon title="Our Journey" />} />
