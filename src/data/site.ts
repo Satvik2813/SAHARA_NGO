@@ -6,7 +6,7 @@
 
 export const org = {
   name: "SAHARA",
-  tagline: "HELP POOR AND INDEED PEOPLE", // [Client-confirmed] verbatim
+  tagline: "HELP POOR AND NEEDY PEOPLE", // [Client-confirmed] verbatim
   heroHeadline: "Extending a Helping Hand. Creating a Better Tomorrow.", // [Client Writeup]
   foundedYear: "1986", // [Client-confirmed]
   founderName: "Narsing Rao Ramagiri", // [Client-confirmed] — displayable
