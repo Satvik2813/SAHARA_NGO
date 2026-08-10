@@ -92,7 +92,7 @@ export function Contact() {
                 className="w-full h-full"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps?q=Tirumalanagar,+Amberpet,+Hyderabad,+500013&output=embed"
+                src="https://www.google.com/maps?q=Sahara+Charity+Organisation,+Amberpet,+Hyderabad&output=embed"
               />
             </div>
           </div>
